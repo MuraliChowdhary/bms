@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "rootDir": "./src",        // Your source code is in the 'src' folder
+    "outDir": "./dist",        // Output compiled JavaScript to the 'dist' folder
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "Bundler"
+  },
+  "include": ["src/**/*"] // Only compile files inside the 'src' directory
+}
